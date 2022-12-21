@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("imagens/the\ witcher\ hell.png");
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inicioHeader { 
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.projetoVermelho {
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+}
+nav {
+    width: 50vw;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF
+}
+.uni {
+    font-weight: bold;
+}
+.uni:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+.lista:hover {
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.witcher {
+    position: relative;
+    left: 18rem;
+    height: 161vh;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    width: 34vw;
+    height: 34vh;
+    z-index: 1;
+    position: relative;
+    right: 17rem;
+    margin-top: 4rem;
+}
+.botao {
+    z-index: 1;
+    position: relative;
+    right: 37rem;
+    margin-top: 24rem;
+}
+.copyright {
+    font-size: 12px;
+}
