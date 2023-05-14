@@ -5,6 +5,7 @@
 }
 body {
     background-image: url("imagens/the\ witcher\ hell.png");
+    background-repeat: no-repeat;
 }
 p {
     font-family: 'Montserrat', sans-serif;
@@ -35,7 +36,8 @@ ul {
     justify-content: space-evenly;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .uni {
     font-weight: bold;
@@ -58,6 +60,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 150vh;
 }
 .titulo {
     width: 34vw;
@@ -72,6 +75,7 @@ main {
     position: relative;
     right: 37rem;
     margin-top: 24rem;
+    cursor: pointer;
 }
 .copyright {
     font-size: 12px;
