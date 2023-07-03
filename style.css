@@ -5,6 +5,7 @@
 }
 body {
     background-image: url("imagens/the\ witcher\ hell.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 p {
@@ -41,42 +42,45 @@ ul {
 }
 .uni {
     font-weight: bold;
+    transition: 0.5s;
 }
 .uni:hover {
-    font-size: 20px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.lista {
     transition: 0.5s;
 }
 .lista:hover {
-    font-size: 20px;
+    transform: scale(1.1);
     font-weight: bold;
     transition: 0.5s;
-}
-.witcher {
-    position: relative;
-    left: 18rem;
-    height: 161vh;
 }
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    margin-right: 4rem;
+    position: relative;
+    top: 1.9rem;
 }
+
 .titulo {
-    width: 34vw;
-    height: 34vh;
+    position:absolute;
     z-index: 1;
-    position: relative;
-    right: 17rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
-.botao {
-    z-index: 1;
-    position: relative;
-    right: 37rem;
-    margin-top: 24rem;
+.botaoo {
+    position: absolute;
+    z-index: 2;
+    margin-top: 25rem;
     cursor: pointer;
 }
 .copyright {
-    font-size: 12px;
+    width: 35vw;
+}
+.copyright p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
