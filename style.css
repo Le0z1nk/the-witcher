@@ -132,3 +132,12 @@ main {
   }
 
 }
+
+@media (min-width: 501px) and (max-width: 900px) {
+    nav {
+        width: 65vw;
+    }
+    main {
+        top: 2.8rem;
+    }
+}
